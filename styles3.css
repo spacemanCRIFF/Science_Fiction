@@ -1,0 +1,151 @@
+.grid3 {
+    height: auto;
+      display: grid;
+      grid-gap: 5px;
+      padding-top: 5px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      grid-template-columns: repeat(3, [col] 33%);
+      grid-template-rows: repeat(5, [row] auto);
+      background-color:#00ffff;
+      margin-top: 0vh;
+     /* margin-bottom: 1em; */
+  }
+  .headerOne {
+    font-family: Raleway, sans-serif;
+    height: 5.5vh;
+    grid-column: col;
+    grid-row: row;
+    color: black;
+    text-align: center;
+    padding: 0px;
+    background-color: white;
+    font-size: 1.25vh;
+    padding-bottom: 0px;
+    }
+    .headerTwo {
+    font-family: Raleway, sans-serif;
+    height: 5.5vh;
+    grid-column: col 2;
+    grid-row: row;
+    color: black;
+    text-align: center;
+    padding: 0px;
+    background-color: white;
+    font-size: 1.25vh;
+    padding-bottom: 0px;
+    }
+    .headerThree {
+    font-family: Raleway, sans-serif;
+    height: 5.5vh;
+    grid-column: col 3;
+    grid-row: row;
+    color: black;
+    text-align: center;
+    padding: 0px;
+    background-color: white;
+    font-size: 1.25vh;
+    padding-bottom: 0px;
+    }
+  .Two3 {
+      padding: 5px;
+      grid-column: col;
+      grid-row: row 2 / span 2;
+      background-color: white;
+    }
+    .Three3 {
+      color: red;
+      height: 31vh;
+      grid-column: col;
+      grid-row: row 4;
+      background-image: url(images/expanse1.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+    .Four3 {
+      padding: 5px;
+      grid-column: col 2;
+      grid-row: row 2;
+      background-color: white;
+    }
+    .Five3 {
+      color: red;
+      height: 31vh;
+      grid-column: 2;
+      grid-row: 3;
+      background-image: url(images/darkMatter.jfif);
+      background-size: cover;
+      background-position: center;
+    }
+    .Six3 {
+      padding: 5px;
+      grid-column: 2;
+      grid-row: 4;
+      background-color: white;
+    } 
+    .Seven3 {
+      color: red;
+      height: 31vh;
+      grid-column: col 3;
+      grid-row: row 2;
+      background-image: url(images/killjoys2.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .Eight3 {
+      padding: 5px;
+      grid-column: col 3;
+      grid-row: row 3 / span 2;
+      background-color: white;
+    }
+    .navOne3 {
+      font-family: Raleway, sans-serif;
+      height: 5.5vh;
+      grid-column: col;
+      grid-row: row 5;
+      color: red;
+      text-align: center;
+      padding: 0px;
+      background-color: white;
+      font-size: 1.25vh;
+      padding-bottom: 0px;
+      }
+      .navTwo3 {
+      font-family: Raleway, sans-serif;
+      height: 5.5vh;
+      grid-column: col 2;
+      grid-row: row 5;
+      color: red;
+      text-align: center;
+      padding: 0px;
+      background-color: white;
+      font-size: 1.25vh;
+      padding-bottom: 0px;
+      }
+      .navThree3 {
+      font-family: Raleway, sans-serif;
+      height: 5.5vh;
+      grid-column: col 3;
+      grid-row: row 5;
+      color: red;
+      text-align: center;
+      padding: 0px;
+      background-color: white;
+      font-size: 1.25vh;
+      padding-bottom: 0px;
+      }
+    
+      .navOne3:hover {
+        color: #00ff00;
+        background-color: grey;
+      }
+      .navTwo3:hover {
+        color: #00ff00;
+        background-color: grey;
+      }
+      .navThree3:hover {
+        color: #00ff00;
+        background-color: grey;
+      }
