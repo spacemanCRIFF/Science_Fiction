@@ -1,3 +1,6 @@
+.links1 {
+  color: #00ff00;
+}
 .grid {
   display: grid;
   grid-gap: 5px;
@@ -7,45 +10,45 @@
   padding-left: 5px;
   grid-template-columns: repeat(3, [col] 33%);
   grid-template-rows: repeat(5, [row] auto);
-  background-color:cyan;
+  background-color: cyan;
   margin-top: 0vh;
- /* margin-bottom: 1em; */
+  /* margin-bottom: 1em; */
 }
 .headerOne {
-font-family: Raleway, sans-serif;
-height: 5.5vh;
-grid-column: col;
-grid-row: row;
-color: black;
-text-align: center;
-padding: 0px;
-background-color: white;
-font-size: 1.25vh;
-padding-bottom: 0px;
+  font-family: Raleway, sans-serif;
+  height: 5.5vh;
+  grid-column: col;
+  grid-row: row;
+  color: black;
+  text-align: center;
+  padding: 0px;
+  background-color: white;
+  font-size: 1.25vh;
+  padding-bottom: 0px;
 }
 .headerTwo {
-font-family: Raleway, sans-serif;
-height: 5.5vh;
-grid-column: col 2;
-grid-row: row;
-color: black;
-text-align: center;
-padding: 0px;
-background-color: white;
-font-size: 1.25vh;
-padding-bottom: 0px;
+  font-family: Raleway, sans-serif;
+  height: 5.5vh;
+  grid-column: col 2;
+  grid-row: row;
+  color: black;
+  text-align: center;
+  padding: 0px;
+  background-color: white;
+  font-size: 1.25vh;
+  padding-bottom: 0px;
 }
 .headerThree {
-font-family: Raleway, sans-serif;
-height: 5.5vh;
-grid-column: col 3;
-grid-row: row;
-color: black;
-text-align: center;
-padding: 0px;
-background-color: white;
-font-size: 1.25vh;
-padding-bottom: 0px;
+  font-family: Raleway, sans-serif;
+  height: 5.5vh;
+  grid-column: col 3;
+  grid-row: row;
+  color: black;
+  text-align: center;
+  padding: 0px;
+  background-color: white;
+  font-size: 1.25vh;
+  padding-bottom: 0px;
 }
 .Two {
   color: red;
@@ -55,7 +58,6 @@ padding-bottom: 0px;
   background-image: url(images/atlantis.jpg);
   background-size: cover;
   background-position: center;
-  
 }
 .Three {
   padding: 5px;
@@ -83,7 +85,7 @@ padding-bottom: 0px;
   grid-column: 2;
   grid-row: 4;
   background-color: white;
-} 
+}
 .Seven {
   padding: 5px;
   grid-column: col 3;
@@ -95,7 +97,7 @@ padding-bottom: 0px;
   height: 31vh;
   grid-column: col 3;
   grid-row: row 4;
-  background-image: url(images/starTrekV.jpg);
+  background-image: url(images/voyager3.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -110,8 +112,8 @@ padding-bottom: 0px;
   background-color: white;
   font-size: 1.25vh;
   padding-bottom: 0px;
-  }
-  .navTwo {
+}
+.navTwo {
   font-family: Raleway, sans-serif;
   height: 5.5vh;
   grid-column: col 2;
@@ -122,8 +124,8 @@ padding-bottom: 0px;
   background-color: white;
   font-size: 1.25vh;
   padding-bottom: 0px;
-  }
-  .navThree {
+}
+.navThree {
   font-family: Raleway, sans-serif;
   height: 5.5vh;
   grid-column: col 3;
@@ -134,17 +136,17 @@ padding-bottom: 0px;
   background-color: white;
   font-size: 1.25vh;
   padding-bottom: 0px;
-  }
+}
 
-  .navOne:hover {
-    color: #00ff00;
-    background-color: grey;
-  }
-  .navTwo:hover {
-    color: #00ff00;
-    background-color: grey;
-  }
-  .navThree:hover {
-    color: #00ff00;
-    background-color: grey;
-  }
+.navOne:hover {
+  color: #00ff00;
+  background-color: grey;
+}
+.navTwo:hover {
+  color: #00ff00;
+  background-color: grey;
+}
+.navThree:hover {
+  color: #00ff00;
+  background-color: grey;
+}
