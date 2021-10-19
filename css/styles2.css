@@ -1,6 +1,3 @@
-.links2 {
-  color: #00ff00;
-}
 .grid2 {
   display: grid;
   grid-gap: 5px;
@@ -57,7 +54,8 @@
   background-color: white;
 }
 .Three2 {
-  color: red;
+  color: white;
+  text-shadow: 1px 1px black;
   height: 31vh;
   grid-column: col;
   grid-row: row 4;
@@ -67,7 +65,8 @@
 }
 
 .Four2 {
-  color: red;
+  color: white;
+  text-shadow: 1px 1px black;
   height: 31vh;
   grid-column: col 2;
   grid-row: row 2;
@@ -90,7 +89,8 @@
 }
 
 .Seven2 {
-  color: red;
+  color: white;
+  text-shadow: 1px 1px black;
   height: 31vh;
   grid-column: col 3;
   grid-row: row 4;
@@ -104,7 +104,6 @@
   height: 5.5vh;
   grid-column: col;
   grid-row: row 5;
-  color: red;
   text-align: center;
   padding: 0px;
   background-color: white;
@@ -116,7 +115,6 @@
   height: 5.5vh;
   grid-column: col 2;
   grid-row: row 5;
-  color: red;
   text-align: center;
   padding: 0px;
   background-color: white;
@@ -128,7 +126,6 @@
   height: 5.5vh;
   grid-column: col 3;
   grid-row: row 5;
-  color: red;
   text-align: center;
   padding: 0px;
   background-color: white;
@@ -147,4 +144,32 @@
 .navThree2:hover {
   color: #00ff00;
   background-color: grey;
+}
+
+.LDRTrailer {
+  text-align: center;
+  margin-top: 22%;
+  opacity: 0;
+}
+.Three2:hover .LDRTrailer {
+  opacity: 1;
+}
+.BMTrailer {
+  text-align: center;
+  margin-top: 13%;
+  opacity: 0;
+}
+.Four2:hover .BMTrailer {
+  opacity: 1;
+}
+.EDTrailer {
+  text-align: center;
+  margin-top: 22%;
+  opacity: 0;
+}
+.Seven2:hover .EDTrailer {
+  opacity: 1;
+}
+.links2 {
+  color: #00ff00;
 }

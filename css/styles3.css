@@ -1,6 +1,3 @@
-.links3 {
-  color: #00ff00;
-}
 .grid3 {
   height: auto;
   display: grid;
@@ -58,7 +55,8 @@
   background-color: white;
 }
 .Three3 {
-  color: red;
+  color: cyan;
+  text-shadow: 1px 1px black;
   height: 31vh;
   grid-column: col;
   grid-row: row 4;
@@ -73,7 +71,8 @@
   background-color: white;
 }
 .Five3 {
-  color: red;
+  color: cyan;
+  text-shadow: 1px 1px black;
   height: 31vh;
   grid-column: 2;
   grid-row: 3;
@@ -88,7 +87,8 @@
   background-color: white;
 }
 .Seven3 {
-  color: red;
+  color: cyan;
+  text-shadow: 1px 1px black;
   height: 31vh;
   grid-column: col 3;
   grid-row: row 2;
@@ -108,7 +108,6 @@
   height: 5.5vh;
   grid-column: col;
   grid-row: row 5;
-  color: red;
   text-align: center;
   padding: 0px;
   background-color: white;
@@ -120,7 +119,6 @@
   height: 5.5vh;
   grid-column: col 2;
   grid-row: row 5;
-  color: red;
   text-align: center;
   padding: 0px;
   background-color: white;
@@ -132,7 +130,6 @@
   height: 5.5vh;
   grid-column: col 3;
   grid-row: row 5;
-  color: red;
   text-align: center;
   padding: 0px;
   background-color: white;
@@ -151,4 +148,32 @@
 .navThree3:hover {
   color: #00ff00;
   background-color: grey;
+}
+
+.expanseTrailer {
+  text-align: center;
+  margin-top: 27%;
+  opacity: 0;
+}
+.Three3:hover .expanseTrailer {
+  opacity: 1;
+}
+.DMTrailer {
+  text-align: center;
+  margin-top: 27%;
+  opacity: 0;
+}
+.Five3:hover .DMTrailer {
+  opacity: 1;
+}
+.KJTrailer {
+  text-align: center;
+  margin-top: 27%;
+  opacity: 0;
+}
+.Seven3:hover .KJTrailer {
+  opacity: 1;
+}
+.links3 {
+  color: #00ff00;
 }
