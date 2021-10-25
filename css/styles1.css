@@ -48,7 +48,8 @@
   padding-bottom: 0px;
 }
 .Two {
-  color: #ffa500;
+  position: relative;
+  color: white;
   text-shadow: 1px 1px black;
   height: 31vh;
   grid-column: col;
@@ -70,7 +71,8 @@
   background-color: white;
 }
 .Five {
-  color: #ffa500;
+  position: relative;
+  color: white;
   text-shadow: 1px 1px black;
   height: 31vh;
   grid-column: 2;
@@ -92,7 +94,8 @@
   background-color: white;
 }
 .Eight {
-  color: #ffa500;
+  position: relative;
+  color: white;
   text-shadow: 1px 1px black;
   height: 31vh;
   grid-column: col 3;
@@ -154,6 +157,12 @@
   opacity: 0;
 }
 .Two:hover .SGATrailer {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   opacity: 1;
 }
 .TNGTrailer {
@@ -162,11 +171,21 @@
   opacity: 0;
 }
 .Five:hover .TNGTrailer {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   opacity: 1;
 }
 .VOYTrailer {
-  text-align: center;
-  margin-top: 33%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   opacity: 0;
 }
 .Eight:hover .VOYTrailer {

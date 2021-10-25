@@ -54,6 +54,7 @@
   background-color: white;
 }
 .Three2 {
+  position: relative;
   color: white;
   text-shadow: 1px 1px black;
   height: 31vh;
@@ -65,6 +66,7 @@
 }
 
 .Four2 {
+  position: relative;
   color: white;
   text-shadow: 1px 1px black;
   height: 31vh;
@@ -89,6 +91,7 @@
 }
 
 .Seven2 {
+  position: relative;
   color: white;
   text-shadow: 1px 1px black;
   height: 31vh;
@@ -147,24 +150,36 @@
 }
 
 .LDRTrailer {
-  text-align: center;
-  margin-top: 22%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   opacity: 0;
 }
 .Three2:hover .LDRTrailer {
   opacity: 1;
 }
 .BMTrailer {
-  text-align: center;
-  margin-top: 13%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   opacity: 0;
 }
 .Four2:hover .BMTrailer {
   opacity: 1;
 }
 .EDTrailer {
-  text-align: center;
-  margin-top: 22%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   opacity: 0;
 }
 .Seven2:hover .EDTrailer {

@@ -55,7 +55,8 @@
   background-color: white;
 }
 .Three3 {
-  color: cyan;
+  position: relative;
+  color: white;
   text-shadow: 1px 1px black;
   height: 31vh;
   grid-column: col;
@@ -71,7 +72,8 @@
   background-color: white;
 }
 .Five3 {
-  color: cyan;
+  position: relative;
+  color: white;
   text-shadow: 1px 1px black;
   height: 31vh;
   grid-column: 2;
@@ -87,7 +89,8 @@
   background-color: white;
 }
 .Seven3 {
-  color: cyan;
+  position: relative;
+  color: white;
   text-shadow: 1px 1px black;
   height: 31vh;
   grid-column: col 3;
@@ -151,24 +154,36 @@
 }
 
 .expanseTrailer {
-  text-align: center;
-  margin-top: 27%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   opacity: 0;
 }
 .Three3:hover .expanseTrailer {
   opacity: 1;
 }
 .DMTrailer {
-  text-align: center;
-  margin-top: 27%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   opacity: 0;
 }
 .Five3:hover .DMTrailer {
   opacity: 1;
 }
 .KJTrailer {
-  text-align: center;
-  margin-top: 27%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   opacity: 0;
 }
 .Seven3:hover .KJTrailer {
